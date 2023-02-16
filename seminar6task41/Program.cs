@@ -9,7 +9,8 @@ int InputNumber(string message)
 {
     Console.Write($"{message}: ");
     int res = int.Parse(Console.ReadLine()!);
-    return res;}
+    return res;
+    }
 
 int[] GetArray(int size, int min, int max)
 {
