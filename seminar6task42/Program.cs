@@ -22,6 +22,7 @@ string DecimalToBinary(int someNum)
     {
         str = Convert.ToString(someNum % 2) + str;
         someNum = someNum / 2;
-    } while (someNum != 0);
+    } 
+    while (someNum != 0);
     return str;
 }
