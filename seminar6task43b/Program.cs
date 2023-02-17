@@ -19,7 +19,7 @@ double[] lineData2 = InputLineData(LINE2);
 if (ValidateLines(lineData1, lineData2))
 {
     double[] coord = FindCoords(lineData1, lineData2);
-    Console.Write($"Точка пересечения уравней у = {lineData1[COEFFICIENT]}*х+{lineData1[CONSTANT]} u y={lineData2[COEFFICIENT]}*х+{lineData2[CONSTANT]}");
+    Console.Write($"Точка пересечения уравнений у = {lineData1[COEFFICIENT]}*х+{lineData1[CONSTANT]} u y={lineData2[COEFFICIENT]}*х+{lineData2[CONSTANT]}");
     Console.WriteLine($" имеет координаты ({coord[X_COORD]} , {coord[Y_COORD]})");
 }
 
